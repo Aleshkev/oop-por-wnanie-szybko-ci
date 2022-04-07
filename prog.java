@@ -2,7 +2,7 @@
 class Main {
 
   static int x1y1 = 0, x2y1 = 1, x1y2 = 2, x2y2 = 3;
-  static long p = (long) 1e9 + 7;
+  static long p = (long) 67102137;
 
   static long[] matrixMul(long[] a, long[] b) {
     return new long[] { //

@@ -1,0 +1,45 @@
+Porównywany język
+Lua, LuaJIT
+
+Środowisko
+Linux 5.10.16.3-microsoft-standard-WSL2 x86_64
+
+Wersja Javy
+openjdk version "11.0.14.1" 2022-02-08
+OpenJDK Runtime Environment (build 11.0.14.1+1-Ubuntu-0ubuntu1.20.04)
+OpenJDK 64-Bit Server VM (build 11.0.14.1+1-Ubuntu-0ubuntu1.20.04, mixed mode, sharing)
+
+Wersja Lua
+Lua 5.3.3  Copyright (C) 1994-2016 Lua.org, PUC-Rio
+
+Wersja LuaJIT
+LuaJIT 2.1.0-beta3 -- Copyright (C) 2005-2017 Mike Pall. http://luajit.org/
+
+Czas działania programu w Javie -Xint
+OpenJDK 64-Bit Server VM warning: Ignoring option -Xprof; support was removed in 10.0
+F(0) + F(1) + ... + F(10000000) mod (67102137) = 43262286
+
+real    2m8.753s
+user    2m8.913s
+sys     0m0.160s
+
+Czas działania programu w Javie
+F(0) + F(1) + ... + F(10000000) mod (67102137) = 43262286
+
+real    0m19.263s
+user    0m20.245s
+sys     0m0.152s
+
+Czas działania programu w Lua
+F(0) + F(1) + ... + F(10000000.0) mod (67102137) = 43262286
+
+real    2m45.662s
+user    2m45.659s
+sys     0m0.000s
+
+Czas działania programu w LuaJIT
+F(0) + F(1) + ... + F(10000000) mod (67102137) = 43262286
+
+real    0m11.420s
+user    0m11.418s
+sys     0m0.000s
