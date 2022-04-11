@@ -28,4 +28,4 @@ local sum = 0
 local upto = 1e7
 for n = 0, upto do sum = (sum + fibonacci(n)) % p end
 
-print("F(0) + F(1) + ... + F(" .. upto .. ") mod (" .. p .. ") = " .. sum)
+print("F(0) + F(1) + ... + F(" .. upto .. ") mod " .. p .. " = " .. sum)

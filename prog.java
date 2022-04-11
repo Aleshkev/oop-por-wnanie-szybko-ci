@@ -34,6 +34,6 @@ class Main {
     long upto = (long) 1e7;
     for (var n = 0; n <= upto; ++n)
       sum = (sum + fibonacci(n)) % p;
-    System.out.println("F(0) + F(1) + ... + F(" + upto + ") mod (" + p + ") = " + sum);
+    System.out.println("F(0) + F(1) + ... + F(" + upto + ") mod " + p + " = " + sum);
   }
 }

@@ -2,6 +2,8 @@
 
 Lua szybsza od Javy confirmed 😎😎😎
 
+Program liczy liczby fibonacciego, każdą osobno, metodą potęgowania macierzy, i sumuje je modulo jakaś stała.
+
 ![
 Lua + LuaJIT \
 Linux 5.10.16.3-microsoft-standard-WSL2 x86_64 \
